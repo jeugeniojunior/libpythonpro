@@ -85,7 +85,7 @@ def find_package_data(
                             or fn.lower() == pattern.lower()):
                         bad_name = True
                         if show_ignored:
-                            print("Directory %s ignored by pattern %s" %
+                            print("File %s ignored by pattern %s" %
                                   (fn, pattern), file=sys.stderr)
                         break
                 if bad_name:
@@ -96,7 +96,7 @@ def find_package_data(
 
 PACKAGE = "libpythonpro"
 NAME = PACKAGE
-DESCRIPTION = "Exercício de aprendizagem referente criação de projetos na linguagem Python, Curso Python Pro."
+DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Eugenio Junior"
 AUTHOR_EMAIL = "jeugenio.junior@gmail.com"
 URL = "https://github.com/jeugeniojunior/libpythonpro"
