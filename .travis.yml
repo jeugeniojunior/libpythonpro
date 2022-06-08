@@ -5,4 +5,4 @@ install:
   - pip install -r requeriments-dev.txt
 scripts:
   - flake8
-  - pytest libpythonpro
+  -
