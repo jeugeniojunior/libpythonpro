@@ -34,5 +34,4 @@ jobs:
         flake8
     - name: Test with pytest
       run: |
-        pip install pytest
         pytest libpythonpro/tests/
