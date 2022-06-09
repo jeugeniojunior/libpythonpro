@@ -3,8 +3,7 @@ Módulo para exemplificar cosntrução de projetos Python no curso Pytools
 
 Nesse curso é ensinado como contribuir com projetos de código 
 
-[![Build Status](https://app.travis-ci.com/jeugeniojunior/libpythonpro.svg?branch=master)](https://app.travis-ci.com/jeugeniojunior/libpythonpro)
-
+[![codecov](https://codecov.io/gh/jeugeniojunior/libpythonpro/branch/master/graph/badge.svg?token=QT6ZXX3TKH)](https://codecov.io/gh/jeugeniojunior/libpythonpro)
 
 Suportada versão 3 de Python
 
