@@ -36,4 +36,3 @@ jobs:
       run: |
         pip install pytest
         pytest libpythonpro/tests/
-      continue-on-error: true
