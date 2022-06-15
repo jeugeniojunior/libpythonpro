@@ -112,7 +112,7 @@ setup(
     author_email=AUTHOR_EMAIL,
     license="GNU AFFERO GENERAL PUBLIC LICENSE",
     url=URL,
-    packages=find_packages(exclude=["tests.*", "tests"]),
+    packages=find_packages(exclude=["test.*", "test"]),
     package_data=find_package_data(PACKAGE, only_in_packages=False),
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
