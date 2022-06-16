@@ -11,7 +11,3 @@ class EnviadorDeSpam:
                 assunto,
                 corpo
             )
-
-
-    
-

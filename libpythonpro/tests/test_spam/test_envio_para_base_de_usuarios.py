@@ -2,7 +2,6 @@ from unittest.mock import Mock
 
 import pytest
 
-from libpythonpro.spam.enviador_de_email import Enviador
 from libpythonpro.spam.main import EnviadorDeSpam
 from libpythonpro.spam.modelos import Usuario
 
@@ -21,7 +20,6 @@ from libpythonpro.spam.modelos import Usuario
     ]
 
 )
-
 def test_qde_de_span(sessao, usuarios):
     for usuario in usuarios:
         sessao.salvar(usuario)
@@ -50,5 +48,4 @@ def test_parametros_de_span(sessao):
         'renzo@pythonpro.com.br',
         'Curso de culinaria Merendinha-JF',
         'Primeira turma do curso de culinária do Merendinha-JF'
-
     )
